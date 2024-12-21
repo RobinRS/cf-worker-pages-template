@@ -1,0 +1,11 @@
+name = "cf-authjs-template"
+pages_build_output_dir = "./dist"
+
+[vars]
+AUTH_SECRET = "your_random_auth_secret"
+AUTH_URL = "http://127.0.0.1:8787/api/auth"
+GITHUB_ID = "GITHUB_AUTH_ID"
+GITHUB_SECRET = "GITHUB_APP_SECRET"
+
+[dev]
+port = 8787
